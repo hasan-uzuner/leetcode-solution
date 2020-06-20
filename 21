@@ -1,12 +1,12 @@
-21. Merge Two Sorted Lists
+// 21. Merge Two Sorted Lists
 
-Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
+//  Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
 
 
-Input: 1->2->4, 1->3->4
-Output: 1->1->2->3->4->4
-İki listenin başlığını izlemeye devam edip ve daha küçük olanın işaretçisini bir sonraki düğüme taşımaya devam ederiz.
-Çözüm:
+//  Input: 1->2->4, 1->3->4
+//  Output: 1->1->2->3->4->4
+//  İki listenin başlığını izlemeye devam edip ve daha küçük olanın işaretçisini bir sonraki düğüme taşımaya devam ederiz.
+//  Çözüm:
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
