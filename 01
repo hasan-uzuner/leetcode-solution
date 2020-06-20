@@ -20,4 +20,4 @@ var twoSum = function(nums, target) {
     indicies[num] = i
   }
 };
-O (1) zaman karmaşıklığında tekrar arayabilmemiz için sayıları yineledikçe indeksleriyle eşleyin.
+//  O (1) zaman karmaşıklığında tekrar arayabilmemiz için sayıları yineledikçe indeksleriyle eşleyin.
